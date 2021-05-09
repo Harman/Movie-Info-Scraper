@@ -22,4 +22,6 @@ Just run the file 'script.js' in vscode using command : node script.js _"HERE CO
 node script.js "The Godfather" "1972"
 ```
 
+## Deatiled working explanation:
+The file 'script.js' uses cheerio and puppeteer modules of node.js to vist Imdb, rotten tomatos and metacritic and fetches the required data. Any file created during the process is stored in 'temp' folder. Final fetched data is stored in 'temp.json' file. Then the node-run-cmd module is used to create a local server which hosts 'index.html' file. The 'index.html' file is web page which uses 'display.js' script to fetch data from previously created 'temp.json' file and the required data is displayed on the browser. 'style.css' formats our webpage to display contents appropriately.
 
