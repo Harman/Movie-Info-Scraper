@@ -8,3 +8,9 @@ This is a simple web scraping script written in javascript. It scrapes movie inf
 * cheerio
 * node-run-cmd
 * omdb Api
+
+### Working video:
+
+https://user-images.githubusercontent.com/64087434/117571334-c3942080-b0eb-11eb-9051-4cbd0750adc7.mp4
+
+
