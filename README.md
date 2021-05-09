@@ -25,9 +25,18 @@ node script.js "The Godfather" "1972"
 ## Deatiled working explanation:
 The file 'script.js' uses cheerio and puppeteer modules of node.js to vist Imdb, rotten tomatos and metacritic and fetches the required data. Any file created during the process is stored in 'temp' folder. Final fetched data is stored in 'temp.json' file. Then the node-run-cmd module is used to create a local server which hosts 'index.html' file. The 'index.html' file is web page which uses 'display.js' script to fetch data from previously created 'temp.json' file and the required data is displayed on the browser. 'style.css' formats our webpage to display contents appropriately.
 
-##Screenshots:
+## Screenshots:
 Here's how the final webpage will look like
-![Screenshot (192)](https://user-images.githubusercontent.com/64087434/117572122-13281b80-b0ef-11eb-86e5-0de7656b2e23.png)
-![Screenshot (194)](https://user-images.githubusercontent.com/64087434/117572124-14f1df00-b0ef-11eb-83e8-06673eb4f58c.png)
-![Screenshot (195)](https://user-images.githubusercontent.com/64087434/117572125-158a7580-b0ef-11eb-9496-1b28b01b5070.png)
-![Screenshot (196)](https://user-images.githubusercontent.com/64087434/117572127-16230c00-b0ef-11eb-8b49-2080d5c3c816.png)
+
+![Screenshot (192)](https://user-images.githubusercontent.com/64087434/117572172-42d72380-b0ef-11eb-8a7e-3977f4220b4b.png)
+
+
+![Screenshot (193)](https://user-images.githubusercontent.com/64087434/117572174-436fba00-b0ef-11eb-8fe5-868040838c70.png)
+
+
+![Screenshot (194)](https://user-images.githubusercontent.com/64087434/117572167-410d6000-b0ef-11eb-9c27-1009e442f775.png)
+
+
+![Screenshot (195)](https://user-images.githubusercontent.com/64087434/117572170-423e8d00-b0ef-11eb-8c1b-25173874544b.png)
+
+
