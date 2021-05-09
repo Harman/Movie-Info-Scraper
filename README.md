@@ -15,8 +15,8 @@ This is a simple web scraping script written in javascript. It scrapes movie inf
 https://user-images.githubusercontent.com/64087434/117571334-c3942080-b0eb-11eb-9051-4cbd0750adc7.mp4
 
 ### How to run locally :
-Just run the file 'script.js' in vscode using command : node script.js "HERE COMES THE EXACT MOVIE NAME" "HERE COMES THE YEAR OF RELEASE"
-for example->
+Just run the file 'script.js' in vscode using command : node script.js _"HERE COMES THE EXACT MOVIE NAME" "HERE COMES THE YEAR OF RELEASE"_
+**for example->**
 ```
 node script.js "The Godfather" "1972"
 ```
