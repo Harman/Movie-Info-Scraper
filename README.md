@@ -8,6 +8,7 @@ This is a simple web scraping script written in javascript. It scrapes movie inf
 * cheerio
 * node-run-cmd
 * omdb Api
+* puppeteer-screen-recorder
 
 ## Screen Capture of the working of script:
 
